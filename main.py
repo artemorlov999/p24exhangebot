@@ -8,7 +8,7 @@ from flask import jsonify
 app = Flask(__name__)
 
 URL_API_BANK = 'https://api.privatbank.ua/p24api/pubinfo?exchange&json&coursid=11'
-URL_API_TELEGRAM = 'https://api.telegram.org/bot690622649:AAGXT672HS93vts9I3G73crJW0TF_Z3_tqw/'
+URL_API_TELEGRAM = 'https://api.telegram.org/bot2100797308:AAFrMo5DT5ERY3WkocN1HgS_H8RwN4fThgU'
 
 
 @app.route('/', methods=['POST', 'GET'])
