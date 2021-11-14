@@ -5,7 +5,7 @@ from flask import Flask
 from flask import request
 from flask import jsonify
 
-app = Flask(__name__)
+app = Flask(p24exhangebot)
 
 URL_API_BANK = 'https://api.privatbank.ua/p24api/pubinfo?exchange&json&coursid=11'
 URL_API_TELEGRAM = 'https://api.telegram.org/bot2100797308:AAFrMo5DT5ERY3WkocN1HgS_H8RwN4fThgU'
